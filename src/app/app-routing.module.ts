@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: '', component: LoginComponent  },
   { path: 'login', component: LoginComponent },
   { path: 'welcome', component: WelcomeComponent},
+  { path: 'welcome/admin', component: WelcomeComponent},
   { path: 'todos', component: ListTodosComponent},
   { path: '**', component: ErrorComponent }
 ];
